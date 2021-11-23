@@ -1,0 +1,38 @@
+.header-doctor{
+    font-size: 18px !important;
+}
+
+#doctor-detail{
+    margin-top: 50px;
+}
+
+
+/*gallery*/
+
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+/*gallery*/
+
+.daysContainer{
+    width: calc(100% - 90px);
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.dayContainer{
+min-width: calc(100% / 7);
+display: inline-block;
+padding: 0 1px;
+}
